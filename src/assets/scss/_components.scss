@@ -1,0 +1,11 @@
+@import "base";
+
+.btn-primary {
+  @include button-variant(
+    $primary,
+    $primary,
+    #fff,
+    $hover-color: #fff,
+    $active-color: #fff,
+  );
+};
